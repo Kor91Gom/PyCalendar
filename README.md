@@ -7,6 +7,26 @@
         streamlit run calendar.py
         복사하여 Enter 키를 누르면 임시 웹을 실행할 수 있음
 
+        ★ 단, 설치 여부 확인 필요
+           python --version # 설치 확인 여부
+
+        ★ pip로 Streamlit 설치
+           Streamlit은 파이썬 패키지이므로 pip를 통해 설치 가능
+           pip install streamlit
+           
+           설치 완료 후, Streamlit이 잘 설치되었는지 확인
+           streamlit hello
+
+        💡 가상환경 선호
+           python -m venv myenv
+           source myenv/bin/activate  # macOS/Linux
+           myenv\Scripts\activate     # Windows
+
+           # 실행하는 법
+             streamlit run my_app.py
+
+
+
 
     🧠 기능적 특성
     기능                    설명
